@@ -1,20 +1,17 @@
 {
-  "launch": {
-    "inputs": [],
-    "configurations": [],
-    "compounds": []
-  },
-  "html.customData": ["\"html.format.wrapAttributes\": \"force-expand-multiline\""]
-}
-"emmet.showSuggestionsAsSnippets": true,
-"files.associations": {
-    "*html": "html", 
-    "*njk": "html"
-}
-"emmet.triggerExpansionOnTab": true,
-"emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "vue-html": "html",
-    "razor": "html",
-    "plaintext": "jade"
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/css"
+    },
+    {
+      "extensionName": ".min.css",
+      "format": "compressed",
+      "savePath": "/css"
+    }
+  ],
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveSassCompile.settings.generateMap": true,
+  "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"]
 }
