@@ -1,0 +1,20 @@
+{
+  "launch": {
+    "inputs": [],
+    "configurations": [],
+    "compounds": []
+  },
+  "html.customData": ["\"html.format.wrapAttributes\": \"force-expand-multiline\""]
+}
+"emmet.showSuggestionsAsSnippets": true,
+"files.associations": {
+    "*html": "html", 
+    "*njk": "html"
+}
+"emmet.triggerExpansionOnTab": true,
+"emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue-html": "html",
+    "razor": "html",
+    "plaintext": "jade"
+}
